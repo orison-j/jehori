@@ -1,0 +1,50 @@
+@media screen and (min-width:240px) and (max-width:920px) {
+    .navbar-nav li{
+        border: none !important;
+    }
+
+    #collapsible.collapse.show {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .form-row textarea {
+        width:100%;
+    }
+}
+
+@media (min-width:860px) {
+    .quote-btn {
+        display:none;
+    }
+    .navbar-expand-tab {
+        -ms-flex-flow:row nowrap;
+        flex-flow:row nowrap;
+        -ms-flex-pack:start;
+        justify-content:flex-start
+    }
+    .navbar-expand-tab .navbar-nav {
+        -ms-flex-direction:row;
+        flex-direction:row
+    }
+    .navbar-expand-tab .navbar-nav .dropdown-menu {
+        position:absolute
+    }
+    .navbar-expand-tab .navbar-nav .nav-link {
+        padding-right:.5rem;
+        padding-left:.5rem
+    }
+    .navbar-expand-tab>.container,.navbar-expand-tab>.container-fluid {
+        -ms-flex-wrap:nowrap;
+        flex-wrap:nowrap
+    }
+    .navbar-expand-tab .navbar-collapse {
+        display:-ms-flexbox!important;
+        display:flex!important;
+        -ms-flex-preferred-size:auto;
+        flex-basis:auto 
+    }
+    .navbar-expand-tab .navbar-toggler {
+            display:none
+    }
+}

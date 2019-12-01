@@ -1,0 +1,56 @@
+/* .raise {
+    animation: raised 0.5s cubic-bezier(0.250, 0.46, 0.450, 0.940) both;
+}
+
+@keyframes raised {
+    from {
+        transform: translateY(0);
+        transform-origin: 50% 50%;
+        text-shadow: none;
+    } to {
+        transform: translateY(-50%);
+        transform-origin: 50% 50%;
+        text-shadow: 0 1px 0 #cccccc, 0 2px #cccccc, 0 3px #cccccc, 0 4px #cccccc, 
+        0 5px #cccccc, 0 6px #cccccc, 0 7px #cccccc, 0 8px #cccccc, 0 9px #cccccc,
+        0 50px 30px rgba(255, 251, 0, 0.5);
+    }
+} */
+/* .slide-in-left {
+animation: slide-in-left 0.5s ease-in
+}
+
+@-webkit-keyframes slide-in-left {
+from {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+}
+to {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+}
+
+@keyframes slide-in-left {
+from {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0;
+}
+to {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+} */
+
+.paralax a.btn {
+    animation-name: shake;
+}
+
+@keyframes shake {
+    from {
+        background-color:transparent;
+    } to {
+        background-color:orangered;
+    }
+}
